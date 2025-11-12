@@ -11,6 +11,29 @@
   height: 100vh;
 }
 
-.debug {
+@utility debug {
   @apply outline-1 outline-solid outline-amber-500;
+}
+
+@utility rounded-bubble {
+  @apply rounded-[1000px];
+}
+
+@utility wv-full {
+  @apply h-full w-full;
+}
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+@utility flex-start-center {
+  @apply flex items-start justify-center;
+}
+@utility flex-end-center {
+  @apply flex items-end justify-center;
+}
+@utility flex-center-end {
+  @apply flex items-center justify-end;
+}
+@utility flex-center-start {
+  @apply flex items-center justify-start;
 }
