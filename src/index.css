@@ -19,7 +19,7 @@
   @apply rounded-[1000px];
 }
 
-@utility wv-full {
+@utility wh-full {
   @apply h-full w-full;
 }
 @utility flex-center {
